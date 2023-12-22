@@ -1,8 +1,14 @@
+import useAuth from "../../Hooks/useAuth";
 import useTask from "../../Hooks/useTask";
 
 const ToDo = () => {
   const { task } = useTask();
-  console.log(task);
+  const { user } = useAuth();
+
+  const filteredTask = task.filter(
+    (filtered) => filtered?.userEmail === user?.email
+  );
+
   return (
     <div className="border rounded-box mx-16 my-12">
       <h2 className="text-xl my-4 mx-4">TO-DO</h2>
@@ -21,7 +27,7 @@ const ToDo = () => {
           </thead>
           <tbody>
             {/* row 1 */}
-            {task?.map((item, indx) => (
+            {filteredTask?.map((item, indx) => (
               <tr key={item._id}>
                 <th>{indx + 1}</th>
                 <td>{item.title}</td>
