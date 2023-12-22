@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="hero min-h-[90vh] bg-transparent">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="mockup-window border bg-base-300">
-          <img src={img} className="max-w-sm rounded-lg shadow-2xl" />
+          <img src={img} className="max-w-xl rounded-lg shadow-2xl" />
         </div>
         <div>
           <h1 className="text-5xl font-bold text-white">
