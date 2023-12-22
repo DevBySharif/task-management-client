@@ -18,36 +18,46 @@ export const Features = () => {
       </div>
       <div className="mb-4 grid grid-cols-12 gap-4">
         <BounceCard className="col-span-12 md:col-span-4">
-          <CardTitle>Do a thing</CardTitle>
+          <CardTitle>Developers</CardTitle>
           <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-violet-400 to-indigo-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
             <span className="block text-center font-semibold text-indigo-50">
-              FEATURE DEMO HERE
+              For developers, our Task Management Platform provides an organized
+              and efficient way to manage projects, tasks, and deadlines. Stay
+              on top of your coding tasks and collaborate seamlessly with your
+              team.
             </span>
           </div>
         </BounceCard>
         <BounceCard className="col-span-12 md:col-span-8">
-          <CardTitle>Do another thing</CardTitle>
+          <CardTitle>Corporate Professionals</CardTitle>
           <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-amber-400 to-orange-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
             <span className="block text-center font-semibold text-orange-50">
-              FEATURE DEMO HERE
+              Corporate professionals can streamline their workflow by using our
+              Task Management Platform. Organize and prioritize tasks,
+              collaborate with colleagues, and enhance overall productivity in a
+              corporate environment.
             </span>
           </div>
         </BounceCard>
       </div>
       <div className="grid grid-cols-12 gap-4">
         <BounceCard className="col-span-12 md:col-span-8">
-          <CardTitle>And this too</CardTitle>
+          <CardTitle>Bankers</CardTitle>
           <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-green-400 to-emerald-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
             <span className="block text-center font-semibold text-emerald-50">
-              FEATURE DEMO HERE
+              Bankers dealing with numerous tasks and deadlines can benefit from
+              our platform. Manage financial tasks, track project progress, and
+              ensure timely completion of critical banking operations.
             </span>
           </div>
         </BounceCard>
         <BounceCard className="col-span-12 md:col-span-4">
-          <CardTitle>And finally this</CardTitle>
+          <CardTitle>Students</CardTitle>
           <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-pink-400 to-red-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
             <span className="block text-center font-semibold text-red-50">
-              FEATURE DEMO HERE
+              Students can manage academic tasks effectively with our platform.
+              Keep track of assignments, project deadlines, and collaborative
+              group work. Stay organized throughout your academic journey.
             </span>
           </div>
         </BounceCard>

@@ -8,10 +8,11 @@ const OnGoing = () => {
           <thead>
             <tr>
               <th>#</th>
-              <th>Name</th>
-              <th>Due Date</th>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Deadlines</th>
               <th>Priority</th>
-              <th>Status</th>
+              <th>Action</th>
             </tr>
           </thead>
           <tbody>

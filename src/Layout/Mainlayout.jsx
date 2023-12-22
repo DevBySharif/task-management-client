@@ -1,10 +1,11 @@
 import Banner from "../Components/Banner";
 import { Navbar } from "../Components/Navbar";
 import Home from "../Pages/Home/Home";
+import img from "../assets/background.svg";
 
 const Mainlayout = () => {
   const background = {
-    background: `url(/src/assets/background.svg)`,
+    background: `url(${img})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   };

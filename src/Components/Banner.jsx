@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
+import img from "../assets/window.png";
 
 const Banner = () => {
   return (
     <div className="hero min-h-[90vh] bg-transparent">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img
-          src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-          className="max-w-sm rounded-lg shadow-2xl"
-        />
+        <div className="mockup-window border bg-base-300">
+          <img src={img} className="max-w-sm rounded-lg shadow-2xl" />
+        </div>
         <div>
           <h1 className="text-5xl font-bold text-white">
             TaskHub - Collaborative Task Management Platform

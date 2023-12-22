@@ -14,7 +14,13 @@ export const Navbar = () => {
       </li>
 
       <li>
-        <a>Item 3</a>
+        <Link className="text-white">Features</Link>
+      </li>
+      <li>
+        <Link className="text-white">About Us</Link>
+      </li>
+      <li>
+        <Link className="text-white">Contact</Link>
       </li>
     </>
   );
