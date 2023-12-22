@@ -10,17 +10,17 @@ export const Navbar = () => {
   const navMenu = (
     <>
       <li>
-        <Link className="text-white">Home</Link>
+        <Link className="lg:text-white">Home</Link>
       </li>
 
       <li>
-        <Link className="text-white">Features</Link>
+        <Link className="lg:text-white">Features</Link>
       </li>
       <li>
-        <Link className="text-white">About Us</Link>
+        <Link className="lg:text-white">About Us</Link>
       </li>
       <li>
-        <Link className="text-white">Contact</Link>
+        <Link className="lg:text-white">Contact</Link>
       </li>
     </>
   );
@@ -31,7 +31,7 @@ export const Navbar = () => {
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-5 w-5 text-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
