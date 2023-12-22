@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Dashboard from "../Layout/Dashboard";
 import Mainlayout from "../Layout/Mainlayout";
+import PreviousTask from "../Pages/Dashboard/PreviousTask";
 import TaskManagement from "../Pages/Dashboard/TaskManagement";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
@@ -30,6 +31,10 @@ const Route = createBrowserRouter([
       {
         path: "manage",
         element: <TaskManagement></TaskManagement>,
+      },
+      {
+        path: "previousTask",
+        element: <PreviousTask></PreviousTask>,
       },
     ],
   },
